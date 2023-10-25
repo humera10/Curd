@@ -1,0 +1,61 @@
+.text{
+    text-align: center;
+    
+
+}
+
+div{
+    background: rgb(54, 53, 53);
+    width: 300px;
+    
+}
+.mx-auto{
+margin: auto;
+padding: 20px;
+}
+.flex{
+display: flex;
+}
+.flex-col{
+flex-direction: column;
+
+}
+
+.button{
+    width: 70px;
+    height: 70px;
+margin: 1px;
+border-radius: 50%;
+background: transparent;
+color: rgb(209, 202, 209);
+font-size: 20px;
+box-shadow: rgb(207, 128, 25)
+rgba(158, 22, 22, 0.9);
+border: 1px solid;
+border-color: rgb(36, 31, 31);
+
+}
+.operator{
+    color: green;
+}
+
+
+    .item-center{
+        align-items: center;    
+    }
+    .row{
+        margin: 3px;
+    }
+    .box input{
+        margin: 3px;
+        padding: 20px 70px;
+        border: 1px solid;
+        border-color: black;
+        border-radius: 8px;
+        box-shadow: 0px, 3px, 15px, rgbs(84,84, 84, 0.1);
+        
+    
+    }
+    
+
+    

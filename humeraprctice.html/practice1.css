@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    height: 120px;
+    background-color: hsl(199, 94%, 27%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+#header img{
+    padding: 30px;
+
+}
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#navbar span{
+   padding: 10px;
+   margin: 0;
+   font-size: 20px;
+
+}
+
+#navbar input{
+    height: 40px;
+    width: 200px;
+}
+
+#login{
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(58, 58, 156);
+    color: #fff;
+}
+
+#account{
+    background-image: url(https://i.pinimg.com/originals/3d/d4/9d/3dd49de00da09287f8d6e1ed73cd77a1.png);
+    height: 75%;
+    width: 50%;
+    margin: 50px;
+    display: flex;
+    background-size: cover;
+    background-position: top 25% right 0;
+    float: right;
+}
+
+.fb{
+  width: 50%;
+  padding: 50px;
+  margin: 20px;
+
+}
+.fb h4{
+    font-size: 18px;
+    padding: 15px 0 15px 0 ;
+}
+
+.fb input{
+    padding: 10px;
+    margin: 8px;
+    width: 400px;
+}
+
+#name{
+    width: 188px;
+    max-width: 200px;
+}
+
+
+    
+#birth{
+    width: 120px;
+}
+
+h6{
+    color: rgb(82, 82, 177);
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+#radio input{
+    padding: 80px;
+    margin: 12px;
+    max-width: 80px;
+}
+
+#radio p{
+    font-size: 18px;
+    padding: 20px 0;
+}
+#radio p span{
+    color: rgb(82, 82, 177);
+    
+}
+
+#normal{
+    background-color: rgb(15, 92, 15);
+    color: #fff;
+    width: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
